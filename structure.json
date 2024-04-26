@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "path": "Ansible"
+    },
+    {
+      "path": "Portainer"
+    },
+    {
+      "path": "AzureDevOps"
+    },
+    {
+      "path": "DockerLabs"
+    }
+  ]
+}
