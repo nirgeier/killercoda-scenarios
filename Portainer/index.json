@@ -1,0 +1,38 @@
+{
+  "title": "Portainer Demo",
+  "description": "Portainer demo with live containers",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios",
+      "background": "bin/setup-background.sh",
+      "foreground": "bin/setup-foreground.sh"
+    },
+    "finish": {
+      "text": "kata/finish.md"
+    },
+    "steps": [
+      {
+        "title": "Step1",
+        "text": "kata/step-001.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": true,
+    "hideintro": false,
+    "hidefinish": false,
+    "showdashboard": true,
+    "dashboards": [],
+    "uimessage1": "\u001b[32mPortainer Demo.\u001b[m\r\n"
+  }
+}
