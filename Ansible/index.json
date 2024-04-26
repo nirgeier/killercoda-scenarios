@@ -1,0 +1,45 @@
+{
+  "title": "Ansible tutorial",
+  "description": "Those labs will teach you Ansible",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "setup-kata.sh",
+          "target": "~/",
+          "chmod": "+w"
+        }
+      ]
+    },
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios"
+    },
+    "finish": {
+      "text": "kata/finish.md"
+    },
+    "steps": [
+      {
+        "title": "Step1",
+        "text": "kata/step-001-setup.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": true,
+    "hideintro": false,
+    "hidefinish": false,
+    "showdashboard": true,
+    "dashboards": [],
+    "uimessage1": "\u001b[32mYour Interactive Ansible labs.\u001b[m\r\n"
+  }
+}
