@@ -1,0 +1,19 @@
+{
+  "title": "Bash EscapeRoom",
+  "description": "Those labs will teach you Bash",
+  "difficulty": "beginner",
+  "time": "unlimited",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios",
+      "foreground": "bin/setup.sh"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Kali Server",
+  "description": "Kali Server",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "setup-kata.sh",
+          "target": "~/kata",
+          "chmod": "+w"
+        },
+        {
+          "file": "Dockerfile",
+          "target": "~/kata"
+        }
+      ]
+    },
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios",
+      "background": "bin/setup-background.sh",
+      "foreground": "bin/setup-foreground.sh"
+    },
+    "finish": {
+      "text": "kata/finish.md"
+    },
+    "steps": [
+      {
+        "title": "hydra",
+        "text": "tools/hydra.md"
+      },
+      {
+        "title": "msconsole",
+        "text": "tools/msconsole.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": true,
+    "hideintro": false,
+    "hidefinish": false,
+    "showdashboard": true,
+    "dashboards": [],
+    "uimessage1": "\u001b[32mYour Interactive Kali labs.\u001b[m\r\n"
+  }
+}

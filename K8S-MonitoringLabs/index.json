@@ -1,0 +1,41 @@
+{
+  "title": "DockerLabs",
+  "description": "Docker labs (Hands-On Labs)",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "setup-kata.sh",
+          "target": "~/",
+          "chmod": "+w"
+        }
+      ]
+    },
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios",
+      "background": "bin/setup-background.sh"
+    },
+    "finish": {
+      "text": "kata/finish.md"
+    },
+    "steps": []
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": true,
+    "hideintro": false,
+    "hidefinish": false,
+    "showdashboard": true,
+    "dashboards": [],
+    "uimessage1": "\u001b[32mYour Interactive Ansible labs.\u001b[m\r\n"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "AzureDevOps CI-CD Playground",
+  "description": "AzureDevOps CI-CD Playground",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "details": {
+    "intro": {
+      "text": "kata/intro.md",
+      "credits": "https://github.com/nirgeier/katakiller-scenarios",
+      "background": "bin/background.sh",
+      "foreground": "bin/setup.sh"
+    },
+    "finish": {
+      "text": "kata/finish.md"
+    },
+    "steps": []
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": true,
+    "hideintro": true,
+    "hidefinish": true,
+    "showdashboard": true,
+    "dashboards": [],
+    "uimessage1": "\u001b[32mPortainer Demo.\u001b[m\r\n"
+  }
+}

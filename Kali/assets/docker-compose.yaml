@@ -1,0 +1,4 @@
+services:
+  kali:
+    image: nirgeier/nirg-cyber-kali
+    build: .
